@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Brightness
+Comment=
+Exec=bash -c "cd $(dirname %k) && ./brightnessAdjust.sh"
+Icon=$(dirname %k)/Brigthness.png
+Path=$(dirname %k)
+Terminal=false
+StartupNotify=false
